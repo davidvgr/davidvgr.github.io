@@ -57,10 +57,13 @@ a:focus-visible {
   gap: 15px;
 }
 
+.research-schematic-wrapper {
+  max-width: min(400px, 100%);
+  margin: 12px auto;
+}
+
 .research-schematic {
   display: block;
-  width: 55%;
-  max-width: 55%;
+  width: 100%;
   height: auto;
-  margin: 12px auto;
 }
