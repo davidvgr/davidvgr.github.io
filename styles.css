@@ -58,9 +58,16 @@ a:focus-visible {
 }
 
 .research-schematic-wrapper {
-  max-width: min(400px, 100%);
+  width: 100%;
+  max-width: 400px;
   margin: 12px auto;
   padding: 0;
+}
+
+@media (max-width: 460px) {
+  .research-schematic-wrapper {
+    max-width: 100%;
+  }
 }
 
 .research-schematic {
