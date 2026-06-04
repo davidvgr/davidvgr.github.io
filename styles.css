@@ -179,11 +179,20 @@ a.org-link:focus-visible {
   }
 
   .site-nav {
+    flex-wrap: nowrap;
+    gap: 18px;
+    overflow-x: auto;
     padding: 10px 16px;
     margin: -56px -20px 30px;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .site-nav > a {
+    flex: 0 0 auto;
     font-size: 0.95em;
   }
 
